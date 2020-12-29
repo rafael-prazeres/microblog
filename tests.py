@@ -11,7 +11,8 @@ class UserModelCase(unittest.TestCase):
         app_root = os.path.abspath(os.path.dirname(__file__))
         dotenv_path = os.path.join(app_root, '.env_tests')
         load_dotenv(dotenv_path)
-        app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('TEST_DATABASE_URL')
+        app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('TEST_DATABASE_URL') or \
+            'sqlite://'
         db.create_all()
 
     def tearDown(self):
