@@ -5,6 +5,15 @@ Esta é um exemplo de aplicação em destaque no tutorial
 de [Miguel Grinberg](https://github.com/miguelgrinberg). Veja o tutorial para obter instruções sobre como utilizar
 este projeto.
 
+##### Requisitos para instalação do microblog:
+
+* No Linux (Ubuntu):
+    * Instalar pacotes git e python3-venv
+
+* No Windows:
+    * [Baixar e instalar o python](https://python.org)
+    * [Baixar e instalar o git](https://git-scm.com/download/win)
+
 ##### Instalação e execução do microblog
 
 * No Linux, a partir do shell:
@@ -32,12 +41,3 @@ C:\Users\foo\microblog> venv\Scripts\activate.bat
 (venv) C:\Users\foo\microblog> flask db upgrade
 (venv) C:\Users\foo\microblog> flask run
 ```
-
-##### Requisitos para instalação do microblog:
-
-* No Linux (Ubuntu):
-    * Instalar pacotes git e python3-venv
-
-* No Windows:
-    * [Baixar e instalar o python](https://python.org)
-    * [Baixar e instalar o git](https://git-scm.com/download/win)
