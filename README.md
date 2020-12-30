@@ -31,6 +31,5 @@ C:\Users\foo\microblog> venv\Scripts\activate.bat
     * Instalar pacotes git e python3-venv
 
 * No Windows:
-    * Baixar e instalar o python a partir de <a href="https://python.org" target="_blank">https://python.org</a>
-
-    * Baixar e instalar o git a partir de <a href="https://git-scm.com/download/win" target="_blank">https://git-scm.com/download/win</a>
+    * [Baixar e instalar o python](https://python.org)
+    * [Baixar e instalar o git](https://git-scm.com/download/win)
