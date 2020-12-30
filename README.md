@@ -1,7 +1,7 @@
 ### Bem-vindo ao Microblog
 
 Esta é um exemplo de aplicação em destaque no tutorial
-Flask Mega-Tutorial](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world)
+[Flask Mega-Tutorial](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world)
 de Miguel Grinberg. Veja o tutorial para obter instruções sobre como utilizar
 este projeto.
 
