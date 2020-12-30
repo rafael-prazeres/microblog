@@ -25,6 +25,7 @@ C:\Users\foo\microblog> venv\Scripts\activate.bat
 (venv) C:\Users\foo\microblog> flask db upgrade
 (venv) C:\Users\foo\microblog> flask run
 ```
+
 ##### Requisitos para instalação do microblog:
 
 * No Linux (Ubuntu):
