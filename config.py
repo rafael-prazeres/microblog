@@ -21,3 +21,4 @@ class Config(object):
     MAIL_PASSWORD = os.environ.get('MAIL_PASSWORD')
     app_admin = os.environ.get('APP_ADMIN')
     ADMINS = [app_admin]
+    POSTS_PER_PAGE = 25
