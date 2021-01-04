@@ -19,6 +19,7 @@ class Config(object):
     MAIL_USE_TLS = int(os.environ.get('MAIL_USE_TLS') or 1)
     MAIL_USERNAME = os.environ.get('MAIL_USERNAME')
     MAIL_PASSWORD = os.environ.get('MAIL_PASSWORD')
-    app_admin = os.environ.get('APP_ADMIN')
+    app_admin = os.environ.get('APP_ADMIN') or "admin@example.com"
     ADMINS = [app_admin]
     POSTS_PER_PAGE = 25
+    SERVER_NAME = os.environ.get('SERVER_NAME') or "localhost:5000"
