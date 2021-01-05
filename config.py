@@ -22,4 +22,4 @@ class Config(object):
     app_admin = os.environ.get('APP_ADMIN') or "admin@example.com"
     ADMINS = [app_admin]
     POSTS_PER_PAGE = 25
-    SERVER_NAME = os.environ.get('SERVER_NAME') or "localhost:5000"
+    SERVER_NAME = os.environ.get('SERVER_NAME')
