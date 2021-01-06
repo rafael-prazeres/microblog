@@ -21,5 +21,5 @@ class Config(object):
     MAIL_PASSWORD = os.environ.get('MAIL_PASSWORD')
     app_admin = os.environ.get('APP_ADMIN') or "admin@example.com"
     ADMINS = [app_admin]
-    POSTS_PER_PAGE = 25
+    POSTS_PER_PAGE = 3
     SERVER_NAME = os.environ.get('SERVER_NAME')
