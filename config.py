@@ -23,3 +23,4 @@ class Config(object):
     ADMINS = [app_admin]
     POSTS_PER_PAGE = 3
     SERVER_NAME = os.environ.get('SERVER_NAME')
+    LANGUAGES = ['en', 'pt_BR']
