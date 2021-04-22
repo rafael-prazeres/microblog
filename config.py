@@ -24,3 +24,4 @@ class Config(object):
     POSTS_PER_PAGE = 3
     SERVER_NAME = os.environ.get('SERVER_NAME')
     LANGUAGES = ['en', 'pt_BR']
+    MS_TRANSLATOR_KEY = os.environ.get('MS_TRANSLATOR_KEY')
